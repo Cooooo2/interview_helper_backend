@@ -5,8 +5,7 @@ import com.wwx.interview_helper_backend.common.ErrorCode;
 /**
  * 抛异常工具类
  *
- * @author <a href="https://github.com/liwwx">程序员鱼皮</a>
- * @from <a href="https://wwx.icu">编程导航知识星球</a>
+ * 
  */
 public class ThrowUtils {
 

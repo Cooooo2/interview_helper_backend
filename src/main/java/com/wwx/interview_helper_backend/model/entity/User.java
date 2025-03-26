@@ -12,8 +12,7 @@ import lombok.Data;
 /**
  * 用户
  *
- * @author <a href="https://github.com/liwwx">程序员鱼皮</a>
- * @from <a href="https://wwx.icu">编程导航知识星球</a>
+ * 
  */
 @TableName(value = "user")
 @Data
@@ -74,6 +73,11 @@ public class User implements Serializable {
      * 更新时间
      */
     private Date updateTime;
+
+    /**
+     * 编辑时间
+     */
+    private Date editTime;
 
     /**
      * 是否删除
